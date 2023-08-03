@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d6d4d4;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    font-size: 25px;
+  }
+  
+  .logo img {
+    height: 50px;
+    padding-left: 50px; 
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+
+  .logbutton
+  {
+    /* width: 300px;
+    height: 30px; */
+    padding: 10px 24px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    font-size: 20px;
+  }
+  .logbutton:active
+  {
+    transform: scale(0.98);
+  }
+
+ 
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+  }
+  
+  .search-form {
+    display: flex;
+  }
+  
+  .search-form input[type="text"] {
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #aaa;
+    outline: none;
+  }
+  
+  .search-form button {
+    padding: 5px 10px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    height: 40px;
+    }
+    
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .memes {
+    max-width: 1000px;
+    width: 100%;
+    background-color: #97979775;
+  }
+  
+  .meme {
+    margin: 100px;
+    border: none;
+    padding: 10px;
+  }
+  
+  .meme img {
+    max-width: 100%;
+    background-size: contain;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #3a3f61;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
